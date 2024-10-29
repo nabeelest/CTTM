@@ -1,0 +1,1 @@
+pyqt5 matplotlib scipy pyserial pillow opencv-python numpy
