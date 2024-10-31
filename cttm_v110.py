@@ -148,7 +148,7 @@ class MainWindow(QtWidgets.QMainWindow):
         #self.disable_osk()
 
     def disable_osk(self):
-       #val=os.environ["QT_IM_MODULE"] #= "none"
+       #val=os.envirn["QT_IM_MODULE"] #= "none"
        print("hello") 
 
 
