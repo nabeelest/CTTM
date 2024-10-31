@@ -153,7 +153,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
 
 
-    # def eventFilter(self, obj, event):
     #     self.enable_osk()
     #     return super().eventFilter(obj, event)
 
