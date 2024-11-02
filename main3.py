@@ -13,7 +13,7 @@ class VirtualKeyboard(QDialog):
         self.main_window = main_window
         # Flag to check if Caps Lock is on (start with uppercase)
         self.is_caps = True
-        self.initUI()
+        return self.initUI()
 
     def initUI(self):
         self.setWindowTitle("Virtual Keyboard")
