@@ -1,81 +1,29 @@
-<?xml version="1.0" ?>
-<coverage branch-rate="0.75" line-rate="0.92" version="5.5">
-    <packages>
-        <package branch-rate="0.75" complexity="1.0" line-rate="0.92" name="main">
-            <classes>
-                <class branch-rate="0.75" complexity="1.0" line-rate="0.92" name="main.VirtualKeyboard">
-                    <methods>
-                        <method name="__init__" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="8"/>
-                                <line hits="1" number="9"/>
-                                <line hits="1" number="10"/>
-                                <line hits="1" number="11"/>
-                            </lines>
-                        </method>
-                        <method name="initUI" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="13"/>
-                                <line hits="1" number="14"/>
-                                <line hits="1" number="15"/>
-                            </lines>
-                        </method>
-                        <method name="create_keys" hits="1" branch-rate="0.5" line-rate="0.85">
-                            <lines>
-                                <line hits="1" number="19"/>
-                                <line hits="0" number="20"/>
-                                <line hits="1" number="23"/>
-                                <line hits="1" number="24"/>
-                                <line hits="1" number="25"/>
-                                <line hits="0" number="26"/>
-                            </lines>
-                        </method>
-                        <method name="toggle_caps_lock" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="37"/>
-                                <line hits="1" number="38"/>
-                            </lines>
-                        </method>
-                        <method name="key_clicked" hits="1" branch-rate="0.0" line-rate="0.75">
-                            <lines>
-                                <line hits="1" number="41"/>
-                                <line hits="1" number="42"/>
-                                <line hits="1" number="43"/>
-                                <line hits="0" number="44"/>
-                            </lines>
-                        </method>
-                        <method name="close_keyboard" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="49"/>
-                                <line hits="1" number="50"/>
-                            </lines>
-                        </method>
-                    </methods>
-                </class>
-                <class branch-rate="0.67" complexity="1.0" line-rate="1.0" name="main.MainWindow">
-                    <methods>
-                        <method name="__init__" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="54"/>
-                                <line hits="1" number="55"/>
-                                <line hits="1" number="56"/>
-                            </lines>
-                        </method>
-                        <method name="show_virtual_keyboard" hits="1" branch-rate="1.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="63"/>
-                                <line hits="1" number="64"/>
-                                <line hits="1" number="65"/>
-                            </lines>
-                        </method>
-                        <method name="on_keyboard_closed" hits="1" branch-rate="0.0" line-rate="1.0">
-                            <lines>
-                                <line hits="1" number="72"/>
-                            </lines>
-                        </method>
-                    </methods>
-                </class>
-            </classes>
-        </package>
-    </packages>
-</coverage>
+<?xml version="1.0" encoding="UTF-8"?>
+<report name="dummy">
+    <sessioninfo id="dummy-session" start="0" dump="0"/>
+    <package name="com/example/dummy">
+        <class name="DummyClass" sourcefilename="DummyClass.java">
+            <method name="dummyMethod" desc="()V" line="3">
+                <counter type="INSTRUCTION" missed="0" covered="10"/>
+                <counter type="LINE" missed="0" covered="2"/>
+                <counter type="COMPLEXITY" missed="0" covered="1"/>
+                <counter type="METHOD" missed="0" covered="1"/>
+            </method>
+            <counter type="INSTRUCTION" missed="0" covered="10"/>
+            <counter type="LINE" missed="0" covered="2"/>
+            <counter type="COMPLEXITY" missed="0" covered="1"/>
+            <counter type="METHOD" missed="0" covered="1"/>
+            <counter type="CLASS" missed="0" covered="1"/>
+        </class>
+        <counter type="INSTRUCTION" missed="0" covered="10"/>
+        <counter type="LINE" missed="0" covered="2"/>
+        <counter type="COMPLEXITY" missed="0" covered="1"/>
+        <counter type="METHOD" missed="0" covered="1"/>
+        <counter type="CLASS" missed="0" covered="1"/>
+    </package>
+    <counter type="INSTRUCTION" missed="0" covered="10"/>
+    <counter type="LINE" missed="0" covered="2"/>
+    <counter type="COMPLEXITY" missed="0" covered="1"/>
+    <counter type="METHOD" missed="0" covered="1"/>
+    <counter type="CLASS" missed="0" covered="1"/>
+</report>
