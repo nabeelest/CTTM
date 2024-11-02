@@ -59,7 +59,7 @@ class VirtualKeyboard(QDialog):
                 col = 0
                 row += 1
 
-        # Add Caps Lock button
+        # Add Caps Lock buton
         caps_button = QPushButton("Caps Lock")
         caps_button.clicked.connect(self.toggle_caps_lock)
         self.keyboard_layout.addWidget(caps_button, row, col)
